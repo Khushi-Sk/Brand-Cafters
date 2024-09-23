@@ -21,13 +21,13 @@ export default function HomePage() {
       <p className="text-2xl sm:text-6xl text-black font-semibold w-full sm:w-[500px] ">Welcome to <span className="bg-indigo-600 text-neutral-100 h-[6px] ">B</span>rand<span className="bg-emerald-500 text-neutral-100 h-[8px]">C</span>rafters, where we craft marketing strategies that drive results for your business.</p>
       <div className="flex flex-col sm:flex-row">
         <div>
-          <img className="flex self-stretch w-28 sm:w-[250px]" src="../Public/Frame 7.png"  />
+          <img className="flex self-stretch w-28 sm:w-[250px]" src={require("../Public/Frame 7.png")}  />
           <span className=" flex w-[2px] h-[40px] lg:w-1.5 md:w-[6px] md:h-[124px] bg-emerald-500 rounded top-40 left-[953.93px] -rotate-[20deg]">
           </span>
         </div>
         <div className="lg:ml-10 sm:ml-0 p-0 sm:p-2 lg:p-0 flex-col">
-          <img className="flex self-end justify-end w-32 md:w-[250px] sm:pt-6" src="../Public/Frame 8.png" />
-          <img className="flex self-center sm:pt-5 sm:w-[180px] w-24 md:w-[250px] lg:pt-1 pt-1" src="../Public/Frame 9.png" /> 
+          <img className="flex self-end justify-end w-32 md:w-[250px] sm:pt-6" src={require("../Public/Frame 8.png")} />
+          <img className="flex self-center sm:pt-5 sm:w-[180px] w-24 md:w-[250px] lg:pt-1 pt-1" src={require("../Public/Frame 9.png")} /> 
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" className="w-10 hidden sm:flex lg:w-6 " viewBox="0 0 56 56" fill="none">
           <circle cx={28} cy={28} r={28} fill="#5073EF" />
