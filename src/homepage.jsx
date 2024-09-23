@@ -21,7 +21,7 @@ export default function HomePage() {
       <p className="text-2xl sm:text-6xl text-black font-semibold w-full sm:w-[500px] ">Welcome to <span className="bg-indigo-600 text-neutral-100 h-[6px] ">B</span>rand<span className="bg-emerald-500 text-neutral-100 h-[8px]">C</span>rafters, where we craft marketing strategies that drive results for your business.</p>
       <div className="flex flex-col sm:flex-row">
         <div>
-          <img className="flex self-stretch w-28 sm:w-[250px]" src={require("../Public/Frame 7.png")}  />
+          <img className="flex self-stretch w-28 sm:w-[250px]" src={require("../public/Frame 7.png")}  />
           <span className=" flex w-[2px] h-[40px] lg:w-1.5 md:w-[6px] md:h-[124px] bg-emerald-500 rounded top-40 left-[953.93px] -rotate-[20deg]">
           </span>
         </div>
